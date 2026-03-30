@@ -8,3 +8,8 @@ WiNDCHousehold = "cd12a3d6-ca9d-404c-9a04-cb90ee163205"
 WiNDCNational = "859d2a84-d038-44d0-959f-b84298eeb557"
 WiNDCRegional = "3a283cf7-dd81-4e73-b72e-b49da15ce41c"
 gdx_jll = "aa021fa7-5c7d-5dc1-9fa7-c90cd282ac20"
+
+
+[sources]
+gdx_jll = {url = "https://github.com/jd-foster/gdx_jll.jl"}
+GDXInterface = {url = "https://github.com/jd-foster/GDXInterface.jl"}
