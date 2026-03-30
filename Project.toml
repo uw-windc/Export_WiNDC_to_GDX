@@ -1,0 +1,10 @@
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+GDXInterface = "b8352055-3412-4df1-864e-ee7edae71aec"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+WiNDCHousehold = "cd12a3d6-ca9d-404c-9a04-cb90ee163205"
+WiNDCNational = "859d2a84-d038-44d0-959f-b84298eeb557"
+WiNDCRegional = "3a283cf7-dd81-4e73-b72e-b49da15ce41c"
+gdx_jll = "aa021fa7-5c7d-5dc1-9fa7-c90cd282ac20"
