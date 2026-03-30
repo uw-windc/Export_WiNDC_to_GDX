@@ -11,20 +11,20 @@ using Dates
 # Build the Data
 # ===============
 
-# data_dir = raw"C:\Users\Mitch\Documents\WiNDC\windc_raw_data\2024\regional"
-# 
-# state_table_full = create_state_table(data_dir)
-# 
-# state_table = State(
-#     table(state_table_full, :year => 2024),
-#     sets(state_table_full),
-#     elements(state_table_full)
-# )
-#
-# @save "regional/state_table_2024.jld2" state_table
-# 
-# 
-# @save "regional/state_table.jld2" state_table=state_table_full
+data_dir = raw"C:\Users\Mitch\Documents\WiNDC\windc_raw_data\2024\regional"
+
+state_table_full = create_state_table(data_dir)
+
+state_table = State(
+    table(state_table_full, :year => 2024),
+    sets(state_table_full),
+    elements(state_table_full)
+)
+
+@save "regional/state_table_2024.jld2" state_table
+
+
+@save "regional/state_table.jld2" state_table=state_table_full
 
 
 # ===============

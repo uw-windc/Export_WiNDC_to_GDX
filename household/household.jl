@@ -11,14 +11,14 @@ using Dates
 # ===============
 # Build the Data
 # ===============
-#state_table, HH_Raw_Data = WiNDCHousehold.household_raw_data("household/household.yaml")
-#
-#HH = WiNDCHousehold.build_household_table(
-#    state_table,
-#    HH_Raw_Data;
-#)
-#
-#@save "household/household.jld2" HH
+state_table, HH_Raw_Data = WiNDCHousehold.household_raw_data("household/household.yaml")
+
+HH = WiNDCHousehold.build_household_table(
+    state_table,
+    HH_Raw_Data;
+)
+
+@save "household/household.jld2" HH
 
 
 

@@ -10,8 +10,8 @@ using JSON
 # Build the Data
 # ===============
 
-# summary_raw = build_us_table() # replace :summary with :detailed for the detailed tables
-# summary,_ = calibrate(summary_raw)
+summary_raw = build_us_table() # replace :summary with :detailed for the detailed tables
+summary,_ = calibrate(summary_raw)
 # 
 # @save "national/national.jld2" summary
 
